@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: #0e0e0e;
+}
+
+.mesh_2d {
+  overflow: hidden;
+  background-color: #080c20;
+  box-shadow: -0.5rem -0.5rem 3rem rgba(255, 255, 255, 0.3),
+    1rem 1rem 5rem rgba(0, 0, 0, 0.4),
+    inset -1rem -1rem 20rem -2.5rem rgba(255, 255, 255, 0.3),
+    inset 1rem 1rem 10rem -2.5rem rgba(0, 0, 0, 0.4);
+  position: relative;
+  border: solid 4px white;
+}
+
+.object {
+  background-color: #c2940d;
+  position: absolute;
+}
